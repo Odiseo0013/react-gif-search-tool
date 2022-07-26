@@ -1,0 +1,85 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 96%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 2.5rem;
+    margin-bottom: -5px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: azure;
+    padding: 50px 0px 25px 0px;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+}
+
+  .polaroidContenedor img {
+    width: 100%;
+  }
+
+  .polaroidContenedor {
+    width:300px;
+    padding:10px 10px 10px 10px;
+    border:1px solid #BFBFBF;
+    background-color:white;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    margin: 30px;
+}
+
+.textoPolaroid {
+  display:block;
+  margin-top:1em;
+  text-align:center;
+  font-style:italic;
+  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.RotarIzq {
+  transform:rotate(10deg);
+  -ms-transform:rotate(10deg); /* IE9 */
+  -webkit-transform:rotate(10deg); /* Safari y Chrome */
+  -moz-transform:rotate(10deg); 
+}
+
+.RotarDer {
+  transform:rotate(-10deg);
+  -ms-transform:rotate(-10deg); /* IE9 */
+  -webkit-transform:rotate(-10deg); /* Safari y Chrome */
+  -moz-transform:rotate(-10deg); 
+}
